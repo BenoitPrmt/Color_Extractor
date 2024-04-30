@@ -53,6 +53,9 @@ def draw_graph_and_image(colors_hex, sizes, path):
     # Displays the graph
     plt.show()
 
+    for i in range(len(colors_hex)):
+        print(f'{i+1} ➜ {colors_hex[i]}')
+
 
 def main():
     # Colors
